@@ -1,0 +1,18 @@
+@media (max-width: 768px) {
+    .nivel-container {
+      width: 100%;
+    }
+    
+    .nivel-id {
+      font-size: 16px;
+    }
+    
+    .nivel-nombre {
+      font-size: 14px;
+    }
+    
+    .usuario-nombre {
+      font-size: 12px;
+    }
+  }
+  

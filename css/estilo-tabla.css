@@ -1,0 +1,65 @@
+/* Estilo para la tabla */
+#comentarios {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Estilo para las filas de encabezado */
+  #comentarios tr {
+    background-color: #f9f9f9;
+    font-weight: bold;
+  }
+  
+  /* Estilo para las celdas de encabezado */
+  #comentarios th {
+    padding: 12px;
+    text-align: left;
+  }
+  
+  /* Estilo para las filas de datos */
+  #comentarios tr:not(:first-child) {
+    background-color: #ffffff;
+  }
+  
+  /* Estilo para las celdas de datos */
+  #comentarios td {
+    padding: 12px;
+    border-bottom: 1px solid #dddddd;
+    width: 20px; /* Ajusta el tamaño de las celdas */
+  }
+  
+  /* Estilo para la celda de "Fecha Hora Comentario" */
+  #comentarios td:nth-child(1) {
+    font-weight: bold;
+    color: #333333;
+  }
+  
+  /* Estilo para la celda de "FK_IdUsuario" */
+  #comentarios td:nth-child(2) {
+    color: #007bff;
+  }
+  
+  /* Estilo para la celda de "FK_IdRuta" */
+  #comentarios td:nth-child(3) {
+    color: #28a745;
+  }
+  
+  /* Estilo para la celda de "Puntuacion" */
+  #comentarios td:nth-child(4) {
+    font-weight: bold;
+    color: #dc3545;
+  }
+  
+  /* Estilo para la celda de "Descripcion" */
+  #comentarios td:nth-child(5) {
+    font-style: italic;
+    color: #888888;
+    font-size: 20px;
+  }
+  
+  /* Estilo para resaltar la fila al pasar el cursor */
+  #comentarios tr:hover {
+    background-color: #f2f2f2;
+  }
+  

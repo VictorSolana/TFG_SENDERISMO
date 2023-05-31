@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/index.css">
+    <link rel="stylesheet" type="text/css" href="../css/info.css">
+    <link rel="stylesheet" type="text/css" href="../css/tbla-niveles.css">
+  
+
+    <script src="../js/niveles.js"></script>
+  
+    <title>ExploraSenderos</title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="logo">
+            <img src="../img/rutasnivel-coments.png" alt="Logo">
+        </a>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="niveles.html">Niveles</a></li>
+                <li><a href="rutas.html">Rutas</a></li>
+                <li><a href="comentarios.html">Comentarios</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="tipos.html">tipos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="section">
+        <div class="carousel">
+            <img id="slide" src="" alt="">
+            <div id="info"></div>
+            <button id="prev">Anterior</button>
+            <button id="next">Siguiente</button>
+        </div>
+
+        <a id="añadir-niveles" href="../insertar/insertar-niveles.html">Añadir nivel</a>
+    </section>
+    <br />
+    <section>
+        <label for="color-select">Filtrar por color:</label>
+        <select id="color-select">
+            <table id="ruta">
+                <tr>
+                  <td>Nombre</td>
+                  <td>Descripcion</td>
+                  <td>Fecha</td>
+                  <td>Hora</td>
+                  <td>Kilometros</td>
+                  <td>Tiempo</td>
+                </tr>
+              </table>
+        </select>
+        <table id="niveles">
+            <tr>
+                <td>Color</td>
+                <td>Tipo</td>
+                <td>Ver Rutas</td>
+            </tr>
+        </table>
+    </section>
+
+    <div id="niveles-container"></div>
+ 
+   
+    <div id="ruta-container"></div>
+    
+   
+</body>
+
+</html>

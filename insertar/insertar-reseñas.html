@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/index.css">
+    <link rel="stylesheet" type="text/css" href="../css/label.css">
+    <script src="../js/validaciones-insert/validar-reseñas.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="logo">
+            <img src="../img/rutasnivel-coments.png" alt="Logo">
+        </a>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#">Rutas</a></li>
+               
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div>
+        <form action="#" method="POST">
+            <label for="FK_IDUsuario">FK_IdUsuario</label>
+            <select id="usuario">
+
+            </select>
+
+            <label for="FK_Idruta">FK_IdRuta</label>
+             <select id="ruta">
+
+             </select>
+            <label for="FechaHoraComentario">FechaHoraComentario</label>
+            <input type="text" name="FechaHoraComentario" id="FechaHoraComentario"
+                placeholder="Fecha y hora comentario">
+
+            <label for="Descripcion">Descripcion</label>
+            <input type="text" name="Descripcion" id="Descripcion" placeholder="Descripcion">
+
+            <label for="Puntuacion">Puntuacion</label>
+            <input type="text" name="Puntuacion" id="Puntuacion" placeholder="7">
+            <button type="button" id="btnEnviar">Enviar</button>
+        </form>
+    </div>
+</body>
+
+</html>

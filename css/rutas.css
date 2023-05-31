@@ -1,0 +1,90 @@
+/* Estilos para la sección */
+section {
+    margin: 20px 0;
+  }
+  
+  /* Estilos para la tabla */
+  #ruta {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+  }
+  
+  /* Estilos para las filas de encabezado */
+  #ruta tr:first-child {
+    background-color: #f9f9f9;
+    font-weight: bold;
+  }
+  
+  /* Estilos para las celdas de encabezado */
+  #ruta th,
+  #ruta td {
+    padding: 12px;
+    text-align: left;
+  }
+  
+  /* Estilos para las filas de datos */
+  #ruta tr:not(:first-child) {
+    background-color: #ffffff;
+  }
+  
+  /* Estilos para las celdas de datos */
+  #ruta td {
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  /* Estilos para la celda de "Nombre" */
+  #ruta td:first-child {
+    color: #007bff; /* Color azul para resaltar */
+  }
+  
+  /* Estilos para la celda de "Descripcion" */
+  #ruta td:nth-child(2) {
+    font-style: italic; /* Estilo cursiva */
+    color: #8267c8; /* Color turquesa */
+    width: 300px; /* Ajusta el tamaño de la celda */
+    text-align: center; /* Alineación al centro */
+  }
+  
+  /* Estilos para las celdas de "Fecha" y "Hora" */
+  #ruta td:nth-child(3),
+  #ruta td:nth-child(4) {
+    color: #333333; /* Color negro */
+    text-align: center; /* Alineación al centro */
+  }
+  
+  /* Estilos para la celda de "Kilometros" */
+  #ruta td:nth-child(5) {
+    font-weight: bold; /* Texto en negrita */
+    color: #dc3545; /* Color rojo */
+    text-align: center; /* Alineación al centro */
+  }
+  
+  /* Estilos para la celda de "Tiempo" */
+  #ruta td:nth-child(6) {
+    color: #28a745; /* Color verde */
+    text-align: center; /* Alineación al centro */
+  }
+  
+  /* Estilos para las celdas de "Ver Ruta" y "Eliminar" */
+  #ruta td:nth-child(7),
+  #ruta td:nth-child(8) {
+    text-align: center; /* Alineación al centro */
+    color: #007bff; /* Color azul para resaltar */
+    cursor: pointer; /* Cambiar el cursor al pasar sobre ellos */
+  }
+  
+  /* Estilos para resaltar la fila al pasar el cursor */
+  #ruta tr:hover {
+    background-color: #f2f2f2;
+  }
+  
+  /* Estilos para dispositivos móviles con ancho máximo de 768px */
+  @media (max-width: 768px) {
+    #ruta {
+      font-size: 12px; /* Reducir el tamaño de fuente */
+    }
+  }
+  
